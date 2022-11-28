@@ -46,9 +46,10 @@
     wrapper.style.textAlign = 'center';
     wrapper.style.display = 'flex';
     wrapper.style.justifyContent = 'center';
-    wrapper.style.zIndex = 999999;
+    wrapper.style.zIndex = 9999;
     wrapper.style.position = 'fixed';
     wrapper.style.width = '100%';
+    wrapper.style.top = 0;
     wrapper.style.fontFamily = 'sans-serif';
 
     var href = document.createElement('a');
