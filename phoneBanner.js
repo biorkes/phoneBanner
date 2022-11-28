@@ -79,7 +79,6 @@
       img.classList.add('shake');
     }
 
-
     var span = document.createElement('span');
     span.id = 'phoneNumberBanner_span';
     span.innerText = options.tel.text;
